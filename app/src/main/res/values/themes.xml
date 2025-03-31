@@ -1,0 +1,27 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="Base.Theme.TheOaksProject" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name = "colorPrimary">@color/purple_500</item>
+        <item name = "colorPrimaryVariant">@color/purple_700</item>
+        <item name = "colorOnPrimary">@color/white</item>
+++
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_200</item>
+        <item name="colorOnSecondary">@color/teal_200</item>
+
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+
+    </style>
+
+    <style name="Theme.TheOaksProject.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name = "Theme.TheOaksProject.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.TheOaksProject.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+
+    <style name="Theme.TheOaksProject" parent="Base.Theme.TheOaksProject" />
+
+</resources>
